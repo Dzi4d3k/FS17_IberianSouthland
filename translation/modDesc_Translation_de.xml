@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
     <texts>
-        <text name="input_BERJAON"									text="Open fence" /> <!-- Need translation to German language -->
+        <text name="input_BERJAON"									text="Open fence" />  <!-- Need translation to German language -->
         <text name="input_BERJAOFF"									text="Close fence" /> <!-- Need translation to German language -->
         <text name="input_ANIMATED_OBJECT_OPEN_DOOR"				text="Open Door" /> <!-- Need translation to German language -->
         <text name="input_ANIMATED_OBJECT_CLOSE_DOOR"				text="Close Door" /> <!-- Need translation to German language -->
