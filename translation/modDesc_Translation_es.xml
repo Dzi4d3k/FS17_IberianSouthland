@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_BERJAON"									text="Abrir berja" />
+        <text name="input_BERJAOFF"									text="Cerrar berja" />
+        <text name="input_ANIMATED_OBJECT_OPEN_DOOR"				text="Abrir Puerta" />
+        <text name="input_ANIMATED_OBJECT_CLOSE_DOOR"				text="Cerrar Puerta" />
+        <text name="input_LIGHTSWITCH_CLICK"						text="Luz On/Off" />
+        <text name="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR"	text="Abrir Puerta" />
+        <text name="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"	text="Cerrar Puerta" />
+
+		<text name="mCompanyFactory_AddOn_startFillST"				text="Comenzar llenado" />
+		<text name="mCompanyFactory_AddOn_stopFillST"				text="Parar llenado" />
+		<text name="mCompanyFactory_AddOn_automaticFillST"			text="Pasar a Llenado Autom." />
+		<text name="mCompanyFactory_AddOn_manualFillST"				text="Pasar a Llenado Manual" />
+
+		<!-- Cargas -->		
+		<text name="compost"									text="Compost" />
+		<text name="biodiesel"									text="Biodiesel" />
+
+		<!-- CompostMaster -->
+		<text name="compostMaster"								text="Compost Master" />
+		<text name="cm_inputWaste"								text="Residuos" />
+		<text name="cm_inputFuel"								text="Combustible" />
+		<text name="cm_outputCompost"							text="Compost" />
+		<text name="inputTrigger_CM2k17"						text="Recursos: " />
+		<text name="outputTrigger_CM2k17"						text="Producido: " />
+		
+		<!-- Biodiesel Home Plant -->
+		<text name="biodieselHomePlant"											text="Refinería Biodiesel" />
+		<text name="biodieselHomePlant_grain"									text="Granos Oleoginosos" />
+		<text name="biodieselHomePlant_biodiesel"								text="Biodiesel" />
+		<text name="inputTrigger_BDHP"											text="En producción: " />
+		<text name="outputTrigger_BDHP"											text="Progreso Producido/Almacenado" />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP"		text="Refinería Biodiesel" />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP_start"	text="Inciar bombeo tanque biodiesel" />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP_stop"	text="Parar bombeo tanque biodiesel" />
+		
+		<!-- SeedMaster2k17 -->
+		<text name="seedMaster"									text="SeedMaster" />
+		<text name="grain_sm"									text="Grano" />
+		<text name="fertilizer_sm"								text="Abono Liquido" />
+		<text name="inputTrigger_SM2k17"						text="Recursos: " />
+		<text name="outputTrigger_SM2k17"						text="Producido: " />
+		<text name="seeds_sm"									text="Semillas" />
+		
+		<!-- AdditionalTrigger -->
+		<text name="mCompanyFactory_AddOn_helpBoxTextInfo"		text="Info: Salga para fijar carga automática" />
+		<text name="mCompanyFactory_AddOn_helpBoxTextAuto"		text="Ajuste Actual: Carga automática" />
+		<text name="mCompanyFactory_AddOn_helpBoxTextManual"	text="Ajuste Actual: Carga manual" />
+		
+		<!-- Almacén Purín -->
+		<text name="Lager"										text="Nivel llenado: "/>
+		<text name="Input1_GL"									text="Purin"/>
+		<text name="einlagernGL"								text="Descargar Purin"/>
+		<text name="abpumpenGL"									text="Cargar Purin"/>
+		
+		<text name="Rohstoffe"									text="Recursos: " />
+
+		<text name="Produkte"									text="Producto: " />
+		<text name="sugarBeet"									text="Remolacha" />
+		<text name="potato"										text="Patatas" />
+		<text name="woodChips"									text="Virutas" />
+		<text name="straw"										text="Paja" />
+		
+		<!-- Puntos Venta o Almacenes -->
+		<text name="South_Farm"									text="Granja Del Sur" />
+		<text name="North_Farm"									text="Granja Del Norte" />
+		<text name="FARM_OTHERS"								text="Granja Otros" />
+		<text name="LIQUID_SILO1"								text="Granja-Liquidos" />
+    </texts>
+</l10n>

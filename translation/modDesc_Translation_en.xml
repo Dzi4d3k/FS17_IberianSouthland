@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_BERJAON"									text="Open fence" />
+        <text name="input_BERJAOFF"									text="Close fence" />
+        <text name="input_ANIMATED_OBJECT_OPEN_DOOR"				text="Open Door" />
+        <text name="input_ANIMATED_OBJECT_CLOSE_DOOR"				text="Close Door" />
+        <text name="input_LIGHTSWITCH_CLICK"						text="Light On/Off" />
+        <text name="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR"	text="Open Door" />
+        <text name="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"	text="Close Door" />
+
+		<text name="mCompanyFactory_AddOn_startFillST"				text="start filling" />
+		<text name="mCompanyFactory_AddOn_stopFillST"				text="stop filling" />
+		<text name="mCompanyFactory_AddOn_automaticFillST"			text="to automatic filling" />
+		<text name="mCompanyFactory_AddOn_manualFillST"				text="to manual filling" />
+
+		<!-- Cargas -->		
+		<text name="compost"									text="Compost" />
+		<text name="biodiesel"									text="Biodiesel" />
+
+		<!-- CompostMaster -->
+		<text name="compostMaster"								text="Compost Master" />
+		<text name="cm_inputWaste"								text="waste" />
+		<text name="cm_inputFuel"								text="fuel" />
+		<text name="cm_outputCompost"							text="Compost" />
+		<text name="inputTrigger_CM2k17"						text="resourcen: " />
+		<text name="outputTrigger_CM2k17"						text="products: " />
+		
+		<!-- Biodiesel Home Plant -->
+		<text name="biodieselHomePlant"											text="Biodiesel Raffinerie" />
+		<text name="biodieselHomePlant_grain"									text="oil fruits" />
+		<text name="biodieselHomePlant_biodiesel"								text="Biodiesel" />
+		<text name="inputTrigger_BDHP"											text="in produce: " />
+		<text name="outputTrigger_BDHP"											text="produced/stored progress: " />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP"		text="Biodiesel Raffinerie" />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP_start"	text="start pump off biodiesel Tank" />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP_stop"	text="stop pump off biodiesel Tank" />
+		
+		<!-- SeedMaster2k17 -->
+		<text name="seedMaster"									text="SeedMaster" />
+		<text name="grain_sm"									text="grain" />
+		<text name="fertilizer_sm"								text="fertilizer liquid" />
+		<text name="inputTrigger_SM2k17"						text="resourcen: " />
+		<text name="outputTrigger_SM2k17"						text="products: " />
+		<text name="seeds_sm"									text="seeds" />
+		
+		<!-- AdditionalTrigger -->
+		<text name="mCompanyFactory_AddOn_helpBoxTextInfo"		text="Info: Get out for set automatic charging" />
+		<text name="mCompanyFactory_AddOn_helpBoxTextAuto"		text="Actual settings: automatic charging" />
+		<text name="mCompanyFactory_AddOn_helpBoxTextManual"	text="Actual settings: manual charging" />
+		
+		<!-- Almacén Purín -->
+		<text name="Lager"										text="Filllevel storage: "/>
+		<text name="Input1_GL"									text="Slurry"/>
+		<text name="einlagernGL"								text="Unload Slurry"/>
+		<text name="abpumpenGL"									text="Load Slurry"/>
+		
+		<text name="Rohstoffe"									text="Resources: " />
+
+		<text name="Produkte"									text="Products: " />
+		<text name="sugarBeet"									text="sugarBeet" />
+		<text name="potato"										text="potatoes" />
+		<text name="woodChips"									text="woodChips" />
+		<text name="straw"										text="straw" />
+		
+		<!-- Puntos Venta o Almacenes -->
+		<text name="South_Farm"									text="South Farm" />
+		<text name="North_Farm"									text="North Farm" />
+		<text name="FARM_OTHERS"								text="Farm Various" />
+		<text name="LIQUID_SILO1"								text="Farm Liquids" />
+    </texts>
+</l10n>

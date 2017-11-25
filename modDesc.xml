@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="38">
+    <author>Vanquish081</author>
+    <version>0.8.5.0</version>
+    <title>
+        <en>Iberian's South Lands</en>
+        <de>Iberians Südland</de>
+        <es>Tierras Del Sur Ibérico</es>
+    </title>
+    <description>
+        <en><![CDATA[Welcome to an imaginary zone the earth of sur of Spain.
+		- Changelog v0.8.5.0:
+			* Changed grass texture.
+			* Added more trees.
+			* Added production and use of Compost.
+			* Added texture for fertilizer, manure and liquidmanure.
+			* Added SeedMaster2k17.
+			* Added Biodiesel Production.
+			* Added warehouse of slurry, digestate and water.
+			* Added cultivation of sugarcane.
+			* Added sugarcane to farm silos.
+			* Added sugar cane to points of sale.
+			* Adjusted prices in points of sale.
+			* Added deposits for fuel (not biodiesel).
+			* Points of sale with business hours.
+			* Added col to buildings.
+		- Changelog v0.8.0.0:
+			* Release version
+
+Firts conversion of this map from FS2013 -> FS2015 and now in FS2017, ready your Big Bud...
+You have the next features:
+- Pigs.
+- Cow.
+- Sheeps.
+- Train Grain.
+- Train Wood.
+- 20 sell points.
+- 89 fields.
+- 3 forest.]]></en>
+        <de><![CDATA[Willkommen in einer imaginären Zone der Erde von sur von Spanien.
+		- Änderungsprotokoll v0.8.5.0:
+			* Geänderte Grasbeschaffenheit
+			* Mehr Bäume hinzugefügt
+			* Hinzugefügt Produktion und Verwendung von Kompost.
+			* Zusätzliche Textur für Dünger, Dünger und Gülle.
+			* SeedMaster2k17 hinzugefügt.
+			* Biodiesel-Produktion hinzugefügt.
+			* Lager von Gülle, Gärresten und Wasser hinzugefügt.
+			* Anbau von Zuckerrohr hinzugefügt.
+			* Zuckerrohr zu Silos hinzugefügt.
+			* Zuckerrohr zu Verkaufsstellen hinzugefügt.
+			* Angepasste Preise in Verkaufsstellen.
+			* Einzahlungen für Treibstoff (nicht Biodiesel).
+			* Verkaufsstellen mit Geschäftszeiten.
+			* Gebäude zu Gebäuden hinzugefügt.
+		- Änderungsprotokoll v0.8.0.0:
+			* Version freigeben
+
+Firts Umwandlung dieser Karte von FS2013 -> FS2015 und jetzt in FS2017, bereit deine Big Bud ...
+Sie haben die folgenden Features:
+- Schweine
+- Kuh
+- schafe
+- Zugsystem
+- 20 verkaufe Punkte.
+- 89 Felder.
+- 3 Wälder]]></de>
+        <es><![CDATA[Bienvenido a una zona imaginaria del sur de España.
+		- Cambios v0.8.5.0:
+			* Ajustado para parche 1.5.1
+			* Cambiada textura hierba.
+			* Añadidos más árboles.
+			* Añadida producción y uso de Compost.
+			* Añadido textura para fertilizante, purín y estiércol.
+			* Añadido SeedMaster2k17.
+			* Añadida Producción Biodiesel.
+			* Añadido almacén de purín, digestato y agua.
+			* Añadido cultivo de caña de azúcar.
+			* Añadido caña de azúcar a silos de granjas.
+			* Añadida caña de azúcar a puntos de venta.
+			* Ajustados precios en puntos de venta.
+			* Añadido depósitos para combustible (no biodiesel).
+			* Puntos de venta con horario comercial.
+			* Añadido col a edificios.
+		- Cambios v0.8.0.0:
+			* Versión de lanzamiento.
+			
+Primera conversión de este mapa desde FS2013 -> FS2015 y ahora para FS17, prepara tu Big Bud...
+Dispones de las siguientes características:
+- Cerdos.
+- Vacas.
+- Ovejas.
+- Tren para venta de grano.
+- Tren para venta de madera.
+- 20 puntos de venta.
+- 89 Campos.
+- 3 Bosques.]]></es>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+
+	<l10n filenamePrefix="modDesc_Translation" />
+
+	<extraSourceFiles>
+		<sourceFile filename="scripts/RolltorExtended.lua" />
+		<sourceFile filename="scripts/timeControlledBusiness.lua" />
+		<sourceFile filename="scripts/timeControlledconcession.lua" />
+		<sourceFile filename="scripts/timeControlledslidingGateOleosur.lua" />
+		<sourceFile filename="scripts/timeControlledslidingGateHarinsur.lua" />
+		<sourceFile filename="scripts/AdditionalTriggers.lua" />
+		<sourceFile filename="scripts/mCompanyFactory.lua" />
+		<sourceFile filename="scripts/mCompanyFactory_AddOn.lua" />
+		<sourceFile filename="scripts/bales.lua" />
+		<sourceFile filename="scripts/movingPlaneFix.lua"/>
+		<sourceFile filename="scripts/regFillTypes.lua"/>
+		<sourceFile filename="scripts/bales.lua"/>
+		<sourceFile filename="scripts/GMKFC_Mod.lua"/>
+		<sourceFile filename="scripts/GasStationExtended.lua" />
+		<sourceFile filename="scripts/GasStationExtendedPrice.lua" />
+		<sourceFile filename="scripts/Lager.lua" />
+		<sourceFile filename="scripts/WaterPuddle.lua" />
+		<sourceFile filename="scripts/DirtyTrigger.lua" />
+	</extraSourceFiles>
+
+	<regFillTypes hudDirectoryFillTypes="maps/hud/fillTypes" textureDirectoryFillPlanes="maps/fillPlanes">
+		<fillType name="compost" 			categoryName="bulk forageWagon augerWagon" 	pricePerLiter="0.8" 	massPerLiter="0.0004" 	showOnPriceTable="true"  createHeap="true" maxPhysicalSurfaceAngle="20"	maxSurfaceAngle="30" collisionScale="1.0" collisionBaseOffset="0.08" minCollisionOffset="0.00" maxCollisionOffset="0.08" fillToGroundScale="1" allowsSmoothing="true" useToSpray="true" sprayerCategoryName="manureSpreader" litersPerSecond="0.06" />		
+<!-- 		<fillType name="beetPulp" 		    categoryName="bulk forageWagon augerWagon" 	pricePerLiter="0.3" 	massPerLiter="0.00034"  showOnPriceTable="true"  createHeap="true" maxPhysicalSurfaceAngle="20"	maxSurfaceAngle="30" collisionScale="1.0" collisionBaseOffset="0.08" minCollisionOffset="0.00" maxCollisionOffset="0.08" fillToGroundScale="1" allowsSmoothing="true" useToSpray="false" addToAnFoodGroup="true" animals="cow" foodGroups="power"/>		
+		<fillType name="butter" 			categoryName="piece" 						pricePerLiter="1.3" 	massPerLiter="0.00010" 	showOnPriceTable="true"  createHeap="false" useToSpray="false" />	 -->
+		<fillType name="biodiesel" 			categoryName="liquid" 						pricePerLiter="1.2" 	massPerLiter="0.00005" 	showOnPriceTable="true"  createHeap="false" useToSpray="false" />
+	</regFillTypes>
+
+    <maps>
+        <map id="IberianSouthland" className="iberiansouthland" filename="scripts/IberianSouthland.lua" configFilename="maps/TSI.xml" defaultVehiclesXMLFilename="defaultVehicles.xml">
+            <title>
+				<en>Iberian's South Lands</en>
+				<de>Südlanden iberischen</de>
+				<es>Tierras Del Sur Ibérico</es>
+            </title>
+            <description>
+                <en>Welcome to an imaginary zone of the South of Spain.</en>
+                <de>Willkommen zu einer imaginären Fläche von Südspanien.</de>
+                <es>Bienvenido a una zona imaginaria del sur de España.</es>
+            </description>
+            <iconFilename>maps/TierrasDelSurIberico_preview.png</iconFilename>
+        </map>
+    </maps>
+
+    <inputBindings>
+        <input name="BERJAON" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+        <input name="BERJAOFF" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+        <input name="ANIMATED_OBJECT_OPEN_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+        <input name="ANIMATED_OBJECT_CLOSE_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+        <input name="LIGHTSWITCH_CLICK" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+    </inputBindings>
+
+    <storeItems>
+        <storeItem xmlFilename="vehicles/AgroStar_Pack/deutzAgroStar.xml" rootNode="vehicle"/>
+    </storeItems>
+
+
+<!-- Credits
+
+Modell, Desing, Modified Vehicles, Tested: Vanquish081
+
+Textures: Google, cgtextures.
+SeedMaster2k17 - Marhu
+Chopped Straw - webalizer
+BaleCrusher - Farmer_Andy, Vanquish081
+Molkerei - Farmer_Andy, Marhu
+SiloKalk - Danny681
+Medianera - Germany Community Group / martinbigM500
+Puente Tubo - Pisty
+Tienda Vehículos - Pisty
+Pared Piedra - Pisty
+DistanceHills - Mailman (ModsWatend)
+medstreet_o, greekHouse - EpicPrydaMods
+Blockhaus - möchtegernbauer
+High Watchtower - Hawkeye
+Das LS-Landtechnik Team!
+Edificios - ysup12
+ARC - 170 - Jetstorm_477
+Inland - Himmi
+Fruit Textures - Eribus, LwFarming, brzeziol, ZeFir, Tessmann85, jakub227, mor2000.
+Entertainment - J seba
+Deljanka - Myjaki (Carretera vieja)
+Montantes - TracMax & Inmanuel
+Señales - Nick98_1
+wasserabnahme2 - Mostwanted
+ZuckerfabrikVLS13 - Schwedenkopf
+Script Rolltor, fabric beer - Blacky_BPG
+fabric cement - Pleasant Valley Mods
+Grain Bin Pack - ThompsonM06
+wohnblock - admin
+Graffitis - dafont.com, Vanquish081
+Pogruzka - Vorota, Alexx79, VAHA
+Dekalb SeedCompany - MBJ, Süsswassermatrose (for quarry by vanquish081)
+Compost Fabric - Farmer Andy
+Script for door opening hours - Desperados93
+Huge Mill: container yard: Zippo, Silo: Sim3.09S 
+RC Circuit: Eva (3dwarehouse)
+Olive trees: Rosenthaler_ROS
+Housing High Low Poly - GoldFox
+Base building for Harinsur - möchtegernbauer
+Base building for Polvillo - Pucksta – PMP, Gebäude & Objekte von Giants (LS13+15)
+MixFeeder - Bluebaby210 mod-portal
+Irish Farm Shed Pack - My-self (Sean6920s)
+Washer vehicle - Rosenthaler
+DarkerNight script - Bayn
+Removehze script - JHML
+Train Tunel - Dogface
+Root Crop Storage - Dogface
+BGA Silo -	kingkalle - Team LTW
+SiloCover - kingkalle - Team LTW
+Digester Pack - Niggels - VertexDezign
+Fliegl Biomat - Bärnd (LS-Modcompany)
+Power Line - Maca
+Wind Turbine 110m - BocieK17
+Manhole gulli - Desperados93
+WaterPuddle - Kevink98
+DirtyTrigger Script - igor29381
+
+
+If you see your objets in this map but is not in the credits, please send me a private message to include you,
+I'm sorry, they are many and they me it happened. Thanks ;)
+ --></modDesc>
