@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="38">
+<modDesc descVersion="34">
     <author>Vanquish081</author>
     <version>0.8.5.0</version>
     <title>
@@ -99,7 +99,7 @@ Dispones de las siguientes características:
     <iconFilename>icon.png</iconFilename>
     <multiplayer supported="true"/>
 
-	<l10n filenamePrefix="modDesc_Translation" /> <!-- Added your translation in to folder translation (respect the format) -->
+	<l10n filenamePrefix="translation/modDesc_Translation" /> <!-- Added your translation in to folder translation (respect the format) -->
 
 	<extraSourceFiles>
 		<sourceFile filename="scripts/RolltorExtended.lua" />
@@ -135,6 +135,19 @@ Dispones de las siguientes características:
 				<en>Iberian's South Lands</en>
 				<de>Südlanden iberischen</de>
 				<es>Tierras Del Sur Ibérico</es>
+            </title>
+            <description>
+                <en>Welcome to an imaginary zone of the South of Spain.</en>
+                <de>Willkommen zu einer imaginären Fläche von Südspanien.</de>
+                <es>Bienvenido a una zona imaginaria del sur de España.</es>
+            </description>
+            <iconFilename>maps/TierrasDelSurIberico_preview.png</iconFilename>
+        </map>
+        <map id="IberianSouthland_EN" className="iberiansouthland" filename="scripts/IberianSouthland.lua" configFilename="maps/TSI_EN.xml" defaultVehiclesXMLFilename="defaultVehicles.xml">
+            <title>
+				<en>Iberian's South Lands - EN -</en>
+				<de>Südlanden iberischen - EN -</de>
+				<es>Tierras Del Sur Ibérico - EN -</es>
             </title>
             <description>
                 <en>Welcome to an imaginary zone of the South of Spain.</en>
