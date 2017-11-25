@@ -99,7 +99,7 @@ Dispones de las siguientes características:
     <iconFilename>icon.png</iconFilename>
     <multiplayer supported="true"/>
 
-	<l10n filenamePrefix="modDesc_Translation" />
+	<l10n filenamePrefix="modDesc_Translation" /> <!-- Added your translation in to folder translation (respect the format) -->
 
 	<extraSourceFiles>
 		<sourceFile filename="scripts/RolltorExtended.lua" />
