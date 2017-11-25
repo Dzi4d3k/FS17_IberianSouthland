@@ -14,7 +14,7 @@
 		<text name="mCompanyFactory_AddOn_automaticFillST"			text="to automatic filling" />
 		<text name="mCompanyFactory_AddOn_manualFillST"				text="to manual filling" />
 
-		<!-- Cargas -->		
+		<!-- FillTypes -->		
 		<text name="compost"									text="Compost" />
 		<text name="biodiesel"									text="Biodiesel" />
 
@@ -49,12 +49,6 @@
 		<text name="mCompanyFactory_AddOn_helpBoxTextAuto"		text="Actual settings: automatic charging" />
 		<text name="mCompanyFactory_AddOn_helpBoxTextManual"	text="Actual settings: manual charging" />
 		
-		<!-- Almacén Purín -->
-		<text name="Lager"										text="Filllevel storage: "/>
-		<text name="Input1_GL"									text="Slurry"/>
-		<text name="einlagernGL"								text="Unload Slurry"/>
-		<text name="abpumpenGL"									text="Load Slurry"/>
-		
 		<text name="Rohstoffe"									text="Resources: " />
 
 		<text name="Produkte"									text="Products: " />
@@ -63,7 +57,7 @@
 		<text name="woodChips"									text="woodChips" />
 		<text name="straw"										text="straw" />
 		
-		<!-- Puntos Venta o Almacenes -->
+		<!-- Sell Points o Storages -->
 		<text name="South_Farm"									text="South Farm" />
 		<text name="North_Farm"									text="North Farm" />
 		<text name="FARM_OTHERS"								text="Farm Various" />

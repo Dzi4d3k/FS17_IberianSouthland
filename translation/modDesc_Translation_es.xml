@@ -49,12 +49,6 @@
 		<text name="mCompanyFactory_AddOn_helpBoxTextAuto"		text="Ajuste Actual: Carga automática" />
 		<text name="mCompanyFactory_AddOn_helpBoxTextManual"	text="Ajuste Actual: Carga manual" />
 		
-		<!-- Almacén Purín -->
-		<text name="Lager"										text="Nivel llenado: "/>
-		<text name="Input1_GL"									text="Purin"/>
-		<text name="einlagernGL"								text="Descargar Purin"/>
-		<text name="abpumpenGL"									text="Cargar Purin"/>
-		
 		<text name="Rohstoffe"									text="Recursos: " />
 
 		<text name="Produkte"									text="Producto: " />
