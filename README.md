@@ -9,4 +9,4 @@ This repository is for various objetives for the map Iberian Southland in FS17:<
 Greetings to all, thank you for your participation ;)
 <br >
 <br>
-NOTE: The font for the text in signboard is Calibir in Bold, the size? the right one for the signboard size.
+NOTE: The font for the text in signboard is Calibri in Bold, the size? the right one for the signboard size.
