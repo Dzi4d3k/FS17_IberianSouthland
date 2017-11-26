@@ -1,66 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
     <texts>
-        <text name="input_BERJAON"									text="Open fence" />  <!-- Need translation to German language -->
-        <text name="input_BERJAOFF"									text="Close fence" /> <!-- Need translation to German language -->
-        <text name="input_ANIMATED_OBJECT_OPEN_DOOR"				text="Open Door" /> <!-- Need translation to German language -->
-        <text name="input_ANIMATED_OBJECT_CLOSE_DOOR"				text="Close Door" /> <!-- Need translation to German language -->
-        <text name="input_LIGHTSWITCH_CLICK"						text="Light On/Off" /> <!-- Need translation to German language -->
-        <text name="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR"	text="Open Door" /> <!-- Need translation to German language -->
-        <text name="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"	text="Close Door" /> <!-- Need translation to German language -->
+        <text name="input_BERJAON"							text="Otwórz ogrodzenie" />
+        <text name="input_BERJAOFF"							text="Zamknij ogrodzenie" />
+        <text name="input_ANIMATED_OBJECT_OPEN_DOOR"					text="Otwórz wrota" />
+        <text name="input_ANIMATED_OBJECT_CLOSE_DOOR"					text="Zamknij wrota" />
+        <text name="input_LIGHTSWITCH_CLICK"						text="Wł./Wył. światło" />
+        <text name="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR"			text="Otwórz wrota" />
+        <text name="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"			text="Zamknij wrota" />
 
-		<text name="mCompanyFactory_AddOn_startFillST"				text="start filling" /> <!-- Need translation to German language -->
-		<text name="mCompanyFactory_AddOn_stopFillST"				text="stop filling" /> <!-- Need translation to German language -->
-		<text name="mCompanyFactory_AddOn_automaticFillST"			text="to automatic filling" /> <!-- Need translation to German language -->
-		<text name="mCompanyFactory_AddOn_manualFillST"				text="to manual filling" /> <!-- Need translation to German language -->
+		<text name="mCompanyFactory_AddOn_startFillST"				text="rozpocznij napełnianie" />
+		<text name="mCompanyFactory_AddOn_stopFillST"				text="zatrzymaj napełnianie" />
+		<text name="mCompanyFactory_AddOn_automaticFillST"			text="przełącz na automatyczne napełnianie" />
+		<text name="mCompanyFactory_AddOn_manualFillST"				text="przełącz na ręczne napełnianie" />
 
 		<!-- FillTypes -->		
-		<text name="compost"									text="Compost" /> <!-- Need translation to German language -->
-		<text name="biodiesel"									text="Biodiesel" /> <!-- Need translation to German language -->
+		<text name="compost"							text="Kompost" />
+		<text name="biodiesel"							text="Biodiesel" />
 
 		<!-- CompostMaster -->
-		<text name="compostMaster"								text="Compost Master" /> <!-- Need translation to German language -->
-		<text name="cm_inputWaste"								text="waste" /> <!-- Need translation to German language -->
-		<text name="cm_inputFuel"								text="fuel" /> <!-- Need translation to German language -->
-		<text name="cm_outputCompost"							text="Compost" /> <!-- Need translation to German language -->
-		<text name="inputTrigger_CM2k17"						text="resourcen: " /> <!-- Need translation to German language -->
-		<text name="outputTrigger_CM2k17"						text="products: " /> <!-- Need translation to German language -->
+		<text name="compostMaster"						text="Compost Master" /> <!-- Machine nanme, I think it shouldn't be transalted -->
+		<text name="cm_inputWaste"						text="odpadki" />
+		<text name="cm_inputFuel"						text="paliwo" />
+		<text name="cm_outputCompost"						text="Kompost" />
+		<text name="inputTrigger_CM2k17"					text="surowce: " />
+		<text name="outputTrigger_CM2k17"					text="produkty: " />
 		
 		<!-- Biodiesel Home Plant -->
-		<text name="biodieselHomePlant"											text="Biodiesel Raffinerie" /> <!-- Need translation to German language -->
-		<text name="biodieselHomePlant_grain"									text="oil fruits" /> <!-- Need translation to German language -->
-		<text name="biodieselHomePlant_biodiesel"								text="Biodiesel" /> <!-- Need translation to German language -->
-		<text name="inputTrigger_BDHP"											text="in produce: " /> <!-- Need translation to German language -->
-		<text name="outputTrigger_BDHP"											text="produced/stored progress: " /> <!-- Need translation to German language -->
-		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP"		text="Biodiesel Raffinerie" /> <!-- Need translation to German language -->
-		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP_start"	text="start pump off biodiesel Tank" /> <!-- Need translation to German language -->
-		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP_stop"	text="stop pump off biodiesel Tank" /> <!-- Need translation to German language -->
+		<text name="biodieselHomePlant"						text="Rafineria biodiesela" />
+		<text name="biodieselHomePlant_grain"					text="uprawy oleiste" />
+		<text name="biodieselHomePlant_biodiesel"				text="Biodiesel" />
+		<text name="inputTrigger_BDHP"						text="w produkcji: " />
+		<text name="outputTrigger_BDHP"						text="wyprodukowano/zmagazynowano: " />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP"	text="Rafineria biodiesela" />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP_start"	text="rozpocznij wypompowywanie biodiesela" />
+		<text name="mCompanyFactory_AddOn_BiodieselOutputTriggerNameBDHP_stop"	text="zatrzymaj wypompowywanie biodiesela" />
 		
 		<!-- SeedMaster2k17 -->
-		<text name="seedMaster"									text="SeedMaster" /> <!-- Need translation to German language -->
-		<text name="grain_sm"									text="grain" /> <!-- Need translation to German language -->
-		<text name="fertilizer_sm"								text="fertilizer liquid" /> <!-- Need translation to German language -->
-		<text name="inputTrigger_SM2k17"						text="resourcen: " /> <!-- Need translation to German language -->
-		<text name="outputTrigger_SM2k17"						text="products: " /> <!-- Need translation to German language -->
-		<text name="seeds_sm"									text="seeds" /> <!-- Need translation to German language -->
+		<text name="seedMaster"							text="SeedMaster" /> <!-- Machine name -->
+		<text name="grain_sm"							text="ziarno" />
+		<text name="fertilizer_sm"						text="nawóz płynny" />
+		<text name="inputTrigger_SM2k17"					text="surowce: " />
+		<text name="outputTrigger_SM2k17"					text="produkty: " />
+		<text name="seeds_sm"							text="nasiona" />
 		
 		<!-- AdditionalTrigger -->
-		<text name="mCompanyFactory_AddOn_helpBoxTextInfo"		text="Info: Get out for set automatic charging" /> <!-- Need translation to German language -->
-		<text name="mCompanyFactory_AddOn_helpBoxTextAuto"		text="Actual settings: automatic charging" /> <!-- Need translation to German language -->
-		<text name="mCompanyFactory_AddOn_helpBoxTextManual"	text="Actual settings: manual charging" /> <!-- Need translation to German language -->
+		<text name="mCompanyFactory_AddOn_helpBoxTextInfo"			text="Uwaga: Wysiądź, aby ustawić ładowanie automatyczne" />
+		<text name="mCompanyFactory_AddOn_helpBoxTextAuto"			text="Aktualne ustawienie: ładowanie automatyczne" />
+		<text name="mCompanyFactory_AddOn_helpBoxTextManual"			text="Aktualne ustawienie: ładowanie ręczne" />
 		
-		<text name="Rohstoffe"									text="Resources: " /> <!-- Need translation to German language -->
+		<text name="Rohstoffe"							text="Surowce: " />
 
-		<text name="Produkte"									text="Products: " /> <!-- Need translation to German language -->
-		<text name="sugarBeet"									text="sugarBeet" /> <!-- Need translation to German language -->
-		<text name="potato"										text="potatoes" /> <!-- Need translation to German language -->
-		<text name="woodChips"									text="woodChips" /> <!-- Need translation to German language -->
-		<text name="straw"										text="straw" /> <!-- Need translation to German language -->
+		<text name="Produkte"							text="Produkty: " />
+		<text name="sugarBeet"							text="buraki cukrowe" />
+		<text name="potato"							text="ziemniaki" />
+		<text name="woodChips"							text="wióry" />
+		<text name="straw"							text="słoma" />
 		
 		<!-- Sell Points o Storages -->
-		<text name="South_Farm"									text="South Farm" /> <!-- Need translation to German language -->
-		<text name="North_Farm"									text="North Farm" /> <!-- Need translation to German language -->
-		<text name="FARM_OTHERS"								text="Farm Various" /> <!-- Need translation to German language -->
-		<text name="LIQUID_SILO1"								text="Farm Liquids" /> <!-- Need translation to German language -->
+		<text name="South_Farm"							text="Farma Południowa" />
+		<text name="North_Farm"							text="Farma Północna" />
+		<text name="FARM_OTHERS"						text="Farma Różności" /> <!-- not conviced about direct translations -->
+		<text name="LIQUID_SILO1"						text="Farma Płynów" /> <!-- not conviced about direct translations -->
     </texts>
 </l10n>
